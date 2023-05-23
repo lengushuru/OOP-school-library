@@ -1,1 +1,1 @@
-gem 'rubocop', '1.52.0'
+gem 'rubocop', '1.51.0'
