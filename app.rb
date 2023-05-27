@@ -57,7 +57,7 @@ class App
     print 'Has Parent permission? [Y/N]:'
     parent_permission = gets.chomp.downcase
 
-    student = Student.new(age, @classroom, name, parent_permission: parent_permission == 'y')
+    student = Student.new(name, @classroom, age, parent_permission: parent_permission == 'y')
     @people << student
     puts 'Student created successfully'
   end
@@ -72,7 +72,7 @@ class App
     print 'Specialization:'
     specialization = gets.chomp
 
-    @people << Teacher.new(age, specialization, name)
+    @people << Teacher.new(name, specialization, age)
     puts 'Teacher created successfully'
   end
 
