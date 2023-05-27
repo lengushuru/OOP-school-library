@@ -70,6 +70,7 @@ git clone https://github.com/lengushuru/OOP-school-library.git
   ```sh 
   cd OOP-school-library bundle install
   ```
+### Install
   ```sh 
   bundle install
   ```
@@ -77,7 +78,8 @@ git clone https://github.com/lengushuru/OOP-school-library.git
   ```sh 
   rspec spec
   ```
-
+### Deployment
+- render 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
