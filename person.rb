@@ -3,7 +3,7 @@ require_relative 'capitalize_decorator'
 require_relative 'trimmer'
 
 class Person
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :rentals
   attr_reader :id
 
   def initialize(name: 'Unknown', age: nil, parent_permission: true)
@@ -11,6 +11,7 @@ class Person
     @name = name
     @age = age
     @parent_permission = parent_permission
+    @rentals = []
   end
 
   def can_use_services?
@@ -19,6 +20,10 @@ class Person
 
   def correct_name
     @name
+  end
+
+  def add_rental(book, date)
+    Rental.new(date, book, self)
   end
 
   private
