@@ -64,22 +64,22 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-```sh 
+```sh
 git clone https://github.com/lengushuru/OOP-school-library.git
   ```
-  ```sh 
+  ```sh
   cd OOP-school-library bundle install
   ```
 ### Install
-  ```sh 
+  ```sh
   bundle install
   ```
 ### Run Tests
-  ```sh 
+  ```sh
   rspec spec
   ```
 ### Deployment
-- render 
+- render
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- AUTHORS -->
@@ -90,7 +90,19 @@ git clone https://github.com/lengushuru/OOP-school-library.git
 - GitHub: [@lengushuru](https://github.com/lengushuru)
 - Twitter: [@lengushuru](https://twitter.com/lengush)
 - LinkedIn: [Lengushuru Charles](https://linkedin.com/in/lengushuru)
-  
+
+👤 **Precious Betine**
+
+- GitHub: [@preciousbetine](https://github.com/preciousbetine)
+- Twitter: [@preciousbetine](https://twitter.com/preciousbetine)
+- LinkedIn: [Precious Betine](https://linkedin.com/in/preciousbetine)
+
+👤 **Walid Kabboussa**
+
+- GitHub: [@Hisoka37](https://github.com/Hisoka37)
+- Twitter: [@KBwalid9](https://twitter.com/KBwalid9)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/walidkb/)
+
 # 🔭 Future Features:
 - Add more advanced Ruby functions.
 - Build wonderful UI.
