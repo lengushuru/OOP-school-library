@@ -40,5 +40,3 @@ end
 
 main = Main.new
 main.menu
-
-
